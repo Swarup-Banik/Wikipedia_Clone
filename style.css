@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(92,1fr);
+    grid-template-rows: repeat(92,1fr);
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav {
+    grid-column: 1/93;
+    grid-row: 1/8;
+    /* border: 1px solid black; */
+    position: sticky;
+}
+
+.bars {
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: 40px;
+    float: left;
+}
+
+.bars:hover {
+    background-color: rgb(235, 229, 229);
+    cursor: pointer;
+}
+
+.logo {
+    height: 45px;
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navlink {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 220px;
+    color: red;
+}
+
+.navlink:hover {
+    color: black;
+}
+
+.navlink1 {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 25px;
+    color: red;
+}
+
+.navlink1:hover {
+    color: black;
+}
+
+.navlink2 {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 25px;
+    color: red;
+}
+
+.navlink2:hover {
+    color: black;
+}
+
+.navlink3 {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 25px;
+    color: red;
+}
+
+.navlink3:hover {
+    color: black;
+}
+
+.navlink4 {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 25px;
+    color: red;
+}
+
+.navlink4:hover {
+    color: black;
+}
+
+.sidebar {
+    /* border: 1px solid black; */
+    grid-column: 1/18;
+    grid-row: 8/93;
+    position: sticky;
+}
+
+.content {
+    border-bottom: 1.5px solid rgb(213, 212, 212);
+    height: 30px;
+    width: 190px;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 73px;
+}
+
+.topb {
+    text-decoration: none;
+    color: black;
+}
+
+.topb:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.topb1 {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+
+.topb1:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.maincon {
+    /* border: 1px solid black; */
+    grid-column: 19/75;
+    grid-row: 8/93;
+}
+
+.boxbar {
+    border: 0.8px solid black;
+    width: 60.6vw;
+    height: 0.1vh;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.boxbar1 {
+    border: 0.8px solid black;
+    width: 60.6vw;
+    height: 0.1vh;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.na {
+    color: rgb(59, 115, 236);
+}
+
+.na:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.rightbar {
+    /* border: 1px solid black; */
+    grid-column: 75/93;
+    grid-row: 8/93;
+}
+
+.content1 {
+    border-bottom: 1.5px solid rgb(213, 212, 212);
+    height: 30px;
+    width: 190px;
+    margin-left: 48px;
+    position: absolute;
+    margin-top: 73px;
+}
+
+.content2 {
+    border-bottom: 1.5px solid rgb(213, 212, 212);
+    height: 30px;
+    width: 190px;
+    margin-left: 48px;
+    position: absolute;
+    margin-top: 113px;
+}
+
+.lan {
+    color: rgb(99, 167, 230);
+}
+
+.lan:hover {
+    color: rgb(111, 59, 174);
+}
+
+.q2 {
+    margin-left: 50px;
+}
+
+.conmain {
+    margin-top: 110px;
+}
+
+.imgpl {
+    border: 1px solid rgb(156, 153, 153);
+    float: right;
+    margin: 0;
+    height: 120vh;
+    width: 20vw;
+}
+
+.textpl {
+    float: left;
+    width: 65%;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.7;
+    letter-spacing: 0.7px;
+}
